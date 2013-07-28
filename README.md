@@ -25,7 +25,10 @@ While the parser simply, well, parses, you can simulate a form of history record
 - Nmap (-v argument required, for now)    http://nmap.org/
 - Argus   http://qosient.com/argus/
 
-##Default Output
+##Sample parsed Argus Output
+![Sample parsed Argus Output](http://i.imgur.com/eDc3EPlh.png)
+
+##Default Middleware Options
 ``` bash
 % python py2gource.py
 ERROR: Invalid or no input type specified.
