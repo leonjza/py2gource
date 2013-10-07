@@ -24,6 +24,7 @@ While the parser simply, well, parses, you can simulate a form of history record
 ##Current Supported Parsers:
 - Nmap (-v argument required, for now)    http://nmap.org/
 - Argus   http://qosient.com/argus/
+- Postfix http://www.postfix.org/
 
 ##Sample parsed Argus Output
 ![Sample parsed Argus Output](http://i.imgur.com/eDc3EPlh.png)
