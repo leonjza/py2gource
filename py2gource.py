@@ -10,9 +10,9 @@ from optparse import OptionParser
 import sys, re, time, random
 
 # from lib import Parser
-from lib.Parsers import Argus, Nmap
+from lib.Parsers import Argus, Nmap, Postfix
 
-parsers = { "nmap" , "argus" }
+parsers = { "nmap" , "argus", "postfix" }
 
 def main():
     parser = OptionParser()
@@ -29,6 +29,8 @@ def main():
         Nmap.Nmap().parse()
     if options.type == "argus":
         Argus.Argus().parse()
+    if options.type == "postfix":
+        Postfix.Postfix().parse()
 
 if __name__ == "__main__":
    main()
